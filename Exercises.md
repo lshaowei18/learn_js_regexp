@@ -15,11 +15,11 @@ let s3 = 'TRUSTWORTHY'
 
 const pat1 =      // add your solution here
 
-pat1.test(s1)
+console.log(pat1.test(s1))
 // < true
-pat1.test(s2)
+console.log(pat1.test(s2))
 // < false
-pat1.test(s3)
+console.log(pat1.test(s3))
 // < true
 ```
 
@@ -28,7 +28,7 @@ pat1.test(s3)
 ```js
 let items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
 
-items.filter(w => test(w))       // add your solution here
+console.log(items.filter(w => test(w)))       // add your solution here
 // < ["goal", "sit"]
 ```
 
@@ -71,7 +71,7 @@ water 10`
 
 const num =       // add your solution here
 
-console.log(purchases.split('\n')
+console.log(console.log(purchases.split('\n'))
                        .filter(e => test(e))       // add your solution here
                        .join('\n'))
 // < items qty
@@ -87,7 +87,7 @@ console.log(purchases.split('\n')
 ```js
 let items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
 
-items.filter(w => test(w) || test(w))     // add your solution here
+console.log(items.filter(w => test(w) || test(w)))     // add your solution here
 // < ["goal", "new", "eat"]
 ```
 
@@ -96,7 +96,7 @@ items.filter(w => test(w) || test(w))     // add your solution here
 ```js
 let items = ['goal', 'new', 'user', 'sit', 'eat', 'dinner']
 
-items.filter(w => test(w) && test(w))     // add your solution here
+console.log(items.filter(w => test(w) && test(w)))     // add your solution here
 // < ["new", "dinner"]
 ```
 
@@ -124,13 +124,13 @@ let str4 = 'switch on the light'
 const pat1 =      // add your solution here
 const pat2 =      // add your solution here
 
-pat1.test(str1) || pat2.test(str1)
+console.log(pat1.test(str1) || pat2.test(str1))
 // < true
-pat1.test(str2) || pat2.test(str2)
+console.log(pat1.test(str2) || pat2.test(str2))
 // < false
-pat1.test(str3) || pat2.test(str3)
+console.log(pat1.test(str3) || pat2.test(str3))
 // < false
-pat1.test(str4) || pat2.test(str4)
+console.log(pat1.test(str4) || pat2.test(str4))
 // < true
 ```
 
@@ -148,7 +148,7 @@ ip.replace()       // add your solution here
 ```js
 let items = ['hi42bye', 'nice1423', 'bad42', 'cool_42a', 'fake4b']
 
-items.filter(e => test(e))       // add your solution here
+console.log(items.filter(e => test(e)))       // add your solution here
 // < ["hi42bye", "nice1423", "cool_42a"]
 ```
 
@@ -157,7 +157,7 @@ items.filter(e => test(e))       // add your solution here
 ```js
 let items = ['lovely', '1\ndentist', '2 lonely', 'eden', 'fly\n', 'dent']
 
-items.filter(e => test(e) || test(e))        // add your solution here
+console.log(items.filter(e => test(e) || test(e)))        // add your solution here
 // < ["lovely", "2 lonely", "dent"]
 ```
 
@@ -169,7 +169,7 @@ mall call ball pall
 wall mall ball fall
 mallet wallet malls`
 
-console.log(para.replace())        // add your solution here
+console.log(console.log(para.replace()))        // add your solution here
 // < ball fall wall tall
   1234 call ball pall
   wall mall ball fall
@@ -181,7 +181,7 @@ console.log(para.replace())        // add your solution here
 ```js
 let items = ['lovely', '1\ndentist', '2 lonely', 'eden', 'fly\nfar', 'dent']
 
-items.filter(e => test(e) || test(e))      // add your solution here
+console.log(items.filter(e => test(e) || test(e)))      // add your solution here
 // < ["lovely", "1\ndentist", "2 lonely", "fly\nfar", "dent"]
 ```
 
@@ -190,7 +190,7 @@ items.filter(e => test(e) || test(e))      // add your solution here
 ```js
 let items = ['12\nthree\n', '12\nThree', '12\nthree\n4', '12\nthree']
 
-items.filter(e => test(e))     // add your solution here
+console.log(items.filter(e => test(e)))     // add your solution here
 // < ["12\nThree", "12\nthree"]
 ```
 
@@ -199,7 +199,7 @@ items.filter(e => test(e))     // add your solution here
 ```js
 let items = ['handed', 'hand', 'handy', 'unhanded', 'handle', 'hand-2']
 
-items.map(w => w.replace())        // add your solution here
+console.log(items.map(w => w.replace()))        // add your solution here
 // < ["Xed", "hand", "Xy", "unhanded", "Xle", "hand-2"]
 ```
 
@@ -208,7 +208,7 @@ items.map(w => w.replace())        // add your solution here
 ```js
 let items = ['handed', 'hand', 'handy', 'unhanded', 'handle', 'hand-2']
 
-items.filter(w => test(w)).map(w => w.replace())        // add your solution here
+console.log(items.filter(w => test(w)).map(w => w.replace()))        // add your solution here
 // < ["handXd", "hand", "handy", "handlX", "hand-2"]
 ```
 
@@ -249,9 +249,9 @@ let s2 = 'refused reed redo received'
 
 const pat1 =      // add your solution here
 
-s1.replace(pat1, 'X')
+console.log(s1.replace(pat1, 'X'))
 // < "cX refuse X read"
-s2.replace(pat1, 'X')
+console.log(s2.replace(pat1, 'X'))
 // < "X X redo X"
 ```
 
@@ -263,9 +263,9 @@ let str2 = "slated for later, don't be late"
 
 const pat2 =      // add your solution here
 
-str1.replace(pat2, 'A')
+console.log(str1.replace(pat2, 'A'))
 // < "pA full of sA"
-str2.replace(pat2, 'A')
+console.log(str2.replace(pat2, 'A'))
 // < "A for A, don't be A"
 ```
 
@@ -347,7 +347,7 @@ let eqns = ['(a^b)', '(a/b)', '(a^b)+2']
 // add your solution here
 const pat4 =      // add your solution here
 
-ip.replace(pat4, 'X')
+console.log(ip.replace(pat4, 'X'))
 // < "3-X*X-X+3"
 ```
 
@@ -384,11 +384,11 @@ let eqn3 = 'r*42-5/3+42///5-42/53+a'
 
 const pat1 =      // add your solution here
 
-eqn1.split(pat1)
+console.log(eqn1.split(pat1))
 // < ["a+", "-c"]
-eqn2.split(pat1)
+console.log(eqn2.split(pat1))
 // < ["pressure*3+", "-14256"]
-eqn3.split(pat1)
+console.log(eqn3.split(pat1))
 // < ["r*42-5/3+42///5-", "3+a"]
 ```
 
@@ -400,9 +400,9 @@ let s2 = 'characters while constructing'
 
 const pat2 =      // add your solution here
 
-s1.replace(pat2, '')
+console.log(s1.replace(pat2, ''))
 // < "remove the spec"
-s2.replace(pat2, '')
+console.log(s2.replace(pat2, ''))
 // < "characters wh"
 ```
 
@@ -415,11 +415,11 @@ let str3 = 'Hi there(greeting). Nice day(a(b)'
 
 const remove_parentheses =        // add your solution here
 
-str1.replace(remove_parentheses, '')
+console.log(str1.replace(remove_parentheses, ''))
 // < "a+b"
-str2.replace(remove_parentheses, '')
+console.log(str2.replace(remove_parentheses, ''))
 // < "a/b + c%d"
-str3.replace(remove_parentheses, '')
+console.log(str3.replace(remove_parentheses, ''))
 // < "Hi there. Nice day"
 ```
 
@@ -430,12 +430,12 @@ let words = 'plink incoming tint winter in caution sentient'
 
 // wrong output
 const w1 = /int|in|ion|ing|inco|inter|ink/g
-words.replace(w1, 'X')
+console.log(words.replace(w1, 'X'))
 "plXk XcomXg tX wXer X cautX sentient"
 
 // expected output
 const w2 =        // add your solution here
-words.replace(w2, 'X')
+console.log(words.replace(w2, 'X'))
 "plX XmX tX wX X cautX sentient"
 ```
 
@@ -456,11 +456,11 @@ let s3 = 'a TEST of skill tests?'
 
 let pat3 =        // add your solution here
 
-s1.replace(pat3, '')
+console.log(s1.replace(pat3, ''))
 // < "this is a Test"
-s2.replace(pat3, '')
+console.log(s2.replace(pat3, ''))
 // < "always "
-s3.replace(pat3, '')
+console.log(s3.replace(pat3, ''))
 // < "a "
 ```
 
@@ -506,7 +506,7 @@ finish the End
 bye`
 
 const pat3 =      // add your solution here
-console.log(para.replace(pat3, ''))
+console.log(console.log(para.replace(pat3, '')))
 // < good start
   
   hi there
@@ -521,7 +521,7 @@ console.log(para.replace(pat3, ''))
 ```js
 let ip = 'a<apple> 1<> b<bye> 2<> c<cat>'
 
-ip.replace(/<.+?>/g, '')
+console.log(ip.replace(/<.+?>/g, ''))
 // < "a 1 2"
 ```
 
@@ -703,11 +703,11 @@ let s3 = 'write a parser'
 let d1 =          // add your solution here
 const pat6 =      // add your solution here
 
-s1.replace(pat6, k => d1[k])
+console.log(s1.replace(pat6, k => d1[k]))
 // < "aspartment has a garden"
-s2.replace(pat6, k => d1[k])
+console.log(s2.replace(pat6, k => d1[k]))
 // < "do you have a extra cable"
-s3.replace(pat6, k => d1[k])
+console.log(s3.replace(pat6, k => d1[k]))
 // < "write a sparser"
 ```
 
@@ -759,9 +759,9 @@ let str2 = '0XDEADBEEF place 0x0ff1ce bad'
 
 const hex_seq =       // add your solution here
 
-str1.match(hex_seq)
+console.log(str1.match(hex_seq))
 // < ["128A", "0xfe32", "34"]
-str2.match(hex_seq)
+console.log(str2.match(hex_seq))
 // < ["0XDEADBEEF", "0x0ff1ce", "bad"]
 ```
 
@@ -774,11 +774,11 @@ let str3 = 'Hi there(greeting). Nice day(a(b)'
 
 const remove_parentheses =        // add your solution here
 
-str1.replace(remove_parentheses, '')
+console.log(str1.replace(remove_parentheses, ''))
 // < "def factorial"
-str2.replace(remove_parentheses, '')
+console.log(str2.replace(remove_parentheses, ''))
 // < "a/b + c%d - (e+*4)"
-str3.replace(remove_parentheses, '')
+console.log(str3.replace(remove_parentheses, ''))
 // < "Hi there. Nice day(a"
 ```
 
@@ -822,9 +822,9 @@ let s2 = '**1\f2\n3star\t7 77\r**'
 
 const pat2 =      // add your solution here
 
-s1.split(pat2)
+console.log(s1.split(pat2))
 // < ["lion", "Ink", "onion", "Nice"]
-s2.split(pat2)
+console.log(s2.split(pat2))
 // < ["**", "star", "**"]
 ```
 
@@ -840,7 +840,7 @@ let ip = 'a<apple> 1<> b<bye> 2<> c<cat>'
 **l)** `\b[a-z](on|no)[a-z]\b` is same as `\b[a-z][on]{2}[a-z]\b`. True or False? Sample input lines shown below might help to understand the differences, if any.
 
 ```js
-console.log('known\nmood\nknow\npony\ninns')
+console.log(console.log('known\nmood\nknow\npony\ninns'))
   known
   mood
   know
@@ -961,13 +961,13 @@ let s4 = 'offsh00t'
 
 const pat1 =      // add your solution here
 
-pat1.test(s1)
+console.log(pat1.test(s1))
 true
-pat1.test(s2)
+console.log(pat1.test(s2))
 false
-pat1.test(s3)
+console.log(pat1.test(s3))
 false
-pat1.test(s4)
+console.log(pat1.test(s4))
 true
 ```
 
@@ -1142,9 +1142,9 @@ let csv2 = 'good bad,nice  ice  , 42 , ,   stall   small'
 
 const trim_whitespace =       // add your solution here
 
-csv1.replace(trim_whitespace, '')
+console.log(csv1.replace(trim_whitespace, ''))
 // < "comma,separated,values"
-csv2.replace(trim_whitespace, '')
+console.log(csv2.replace(trim_whitespace, ''))
 // < "good bad,nice  ice,42,,stall   small"
 ```
 
@@ -1203,11 +1203,11 @@ let s3 = 'we:be:he:0:a:b:bother'
 
 const pat2 =      // add your solution here
 
-s1.replace(pat2, '')
+console.log(s1.replace(pat2, ''))
 // < "42"
-s2.replace(pat2, '')
+console.log(s2.replace(pat2, ''))
 // < "twelve:a2b"
-s3.replace(pat2, '')
+console.log(s3.replace(pat2, ''))
 // < "we:be:he:0:a:b"
 ```
 
@@ -1231,15 +1231,15 @@ let str5 = '4,price,3.14,qty,4'
 
 const neg =       // add your solution here
 
-neg.test(str1)
+console.log(neg.test(str1))
 // < true
-neg.test(str2)
+console.log(neg.test(str2))
 // < false
-neg.test(str3)
+console.log(neg.test(str3))
 // < false
-neg.test(str4)
+console.log(neg.test(str4))
 // < true
-neg.test(str5)
+console.log(neg.test(str5))
 // < false
 ```
 
@@ -1248,10 +1248,10 @@ neg.test(str5)
 ```js
 let ip = 'I have 12, he has 2!'
 
-ip.replace(/\b..\b/g, '{$&}')
+console.log(ip.replace(/\b..\b/g, '{$&}'))
 // < "{I }have {12}{, }{he} has{ 2}!"
 
-ip.replace(/(?<!\w)..(?!\w)/g, '{$&}')
+console.log(ip.replace(/(?<!\w)..(?!\w)/g, '{$&}'))
 // < "I have {12}, {he} has {2!}"
 ```
 
@@ -1277,13 +1277,13 @@ let s4 = 'who was there to see?'
 
 const pat3 =      // add your solution here
 
-s1.search(pat3)
+console.log(s1.search(pat3))
 < 12
-s2.search(pat3)
+console.log(s2.search(pat3))
 < 18
-s3.search(pat3)
+console.log(s3.search(pat3))
 < 17
-s4.search(pat3)
+console.log(s4.search(pat3))
 < 14
 ```
 
@@ -1300,11 +1300,11 @@ let str3 = 'happy learning!'
 
 const pat1 =      // add your solution here
 
-pat1.test(str1)
+console.log(pat1.test(str1))
 // < false
-pat1.test(str2)
+console.log(pat1.test(str2))
 // < false
-pat1.test(str3)
+console.log(pat1.test(str3))
 // < true
 ```
 
